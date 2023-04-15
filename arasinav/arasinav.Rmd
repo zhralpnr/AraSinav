@@ -1,0 +1,64 @@
+---
+title: "Migrende Ağrı ve Semptomlar Arasındaki İlişkinin Analizi"
+author: 
+  - Zehra Alpınar[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080531, [Github Repo](https://github.com/zhralpnr/arasinav)
+
+
+# Giriş
+Çeşitli risk faktörlerinin migren üzerindeki etkilerinin, hastalığın yoğunluğunu ve sıklığını ne derecede etkilediği sorusunu açıklamak üzere bu analiz yapılacaktır. Analizde çeşitli migren hastalarından deney yoluyla elde edilen veri seti kullanılmıştır. Harvard Dataverse sisteminden alınan veri seti 144 gözlemden (migren hastaları) ve 16 değişkenden (yaş, cinsiyet, vücut kitle indeksi, çeşitli migren semptomları) oluşmaktadır.
+
+
+## Çalışmanın Amacı
+Türk Nöroloji Derneği’nin 2013 yılı verilerine göre Türkiye’de %16,7 oranında migren hastalığı görülmekte iken, 2022 yılı nüfus verileri kapsamında 15 milyona tekabül etmektedir. Ülkemizde ve dünyada giderek artış gösteren migren; hayat kalitesini düşüren ve bireylerin günlük işlerini yapmalarında dahi zorlanmalarına sebep olan bir rahatsızlıktır.
+
+Migren atakları şiddetli hissedilen baş ağrısının yanı sıra mide bulantısı, kusma, baş dönmesi, ışığa ve sese karşı duyarlılığın artması gibi semptomlarla birlikte seyreder. Bu belirtilerin şiddeti, yoğunluk ve atak sıklıkları çeşitli faktörlere göre değişiklik gösterir.Migreni etkileyen risk faktörlerinden çalışmada kullanılacak olanlar; yaş, cinsiyet, vücut kitle indeksi, alkol ve sigara kullanımıdır. Nihayetinde çalışmanın amacı migren hastalarının hissettikleri ağrının yoğunluğu ve şiddetinin çeşitli risk faktörlerine bağlı olarak semptomlar üzerindeki etkilerinin analiz edilmesidir.
+
+## Literatür 
+Migren binlerce yıldan beri bilinen bir hastalık olup nörolojik, gastrointestinal ve otonom değişikliklerin çeşitli kombinasyonlarda eşlik ettiği birincil, epizodik bir baş ağrısıdır.[@ozturan2016migren]
+
+Semptomları kişiden kişiye değişmekle birlikte bir ya da birden fazla şekilde görülebilir ve her zaman aynı şekilde olmaz. Aralıklı ve ilerleyici de olabilir. Tanısı genellikle hastanın hikayesine dayanılarak koyulabilmektedir. Migren kronik ve epizodik olarak ikiye ayrılır. Kronik migren (KM), en az üç ay boyunca ayda 15 gün veya daha fazla baş ağrısı ataklarının olması ve bunun 8 veya daha fazlasının migren kriterlerini karşılaması olarak tanımlanır.[@yalin2016phenotypic].Epizodik migren daha aralıklı ataklarla gelen migrendir. Kronik migrenden daha az ağrı atağının görülmesiyle ayrıştırılır.
+
+Migren yaşam kalitesini düşüren, iş verimliliğini azaltan ve özürlülüğe neden olabilen bir hastalıktır. Bu özürlülüğün ölçülebilmesi için Migraine Disability Assessment Scale (MIDAS) adında bir ölçek geliştirilmiştir. Elif Köksal ve diğerlerinin “Migrenli Kadınlarda Vücut Kitle İndeksinin Ağrı, Özürlülük ve Uyku Üzerine Etkileri” adlı çalışmasında migrenli kadınlar üzerinde MIDAS kullanılarak hastaların özürlülük seviyesi ölçülmüştür.Örneğin vücut kitle indeksi 25’ten daha yüksek olan migrenli kadınların ataklarının daha sık olduğu ve özürlülük derecesinin de arttığı  bulunmuştur.[@gokccal2015migrenli]
+
+ L. Kelman & D. Tanis’ in “The relationship between migraine pain and other associated symptoms” adlı makalesinde migren ağrısına eşlik eden semptomlar incelenmiştir. Buna göre migren atakları genellikle mide bulantısı ve diğer ilişkili semptomları içerir. Başlangıçta sadece ağrı meydana gelse de devamında ağrının yoğunluğu ve şiddetine göre migren semptomları çeşitlenir. Çalışmada ağrı ne kadar şiddetli olursa semptomların o kadar kötü olacağı iddia edilmektedir. Bununla birlikte bu çalışmada ağrının hem şiddeti hem de süresi ile kronik migren atağının ilişkili semptomları arasındaki ilişki kesin olarak kurulamamıştır. İlişkili tüm semptomların ağrı ile ilgili olarak aynı şekilde davranıp davranmadığı da bilinmemektedir.[@kelman2006relationship]
+ 
+ İncelenen çalışmalardan migren ağrısının şiddetinin semptomlarla doğru yönde ilişkili olduğu anlaşılmıştır. Ancak bunun aksini iddia eden çalışmalar da bulunmaktadır. Kesin sonuçlar için detaylı analiz yapılması gerekmektedir.
+
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
